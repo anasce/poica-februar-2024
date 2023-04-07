@@ -27,10 +27,31 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
-- type: Label
-  properties: {role: title, align: left, tooltip: '', border: '', foreground: '',
-    visible: true, text: News App, font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-    underline: false, icon: ''}
-  name: label_1
-  layout_properties: {slot: title}
+  components:
+  - type: XYPanel
+    properties: {height: 28, width: 322}
+    name: xy_panel_1
+    layout_properties: {grid_position: 'WDFKVY,ZFCXXM', width: 398}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 58, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: 'https://em-content.zobj.net/source/microsoft-teams/337/anatomical-heart_1fac0.png',
+        spacing_below: small, background: '', horizontal_align: center}
+      name: image_1
+      layout_properties: {grid_position: 'TSJFQB,PXILGY', x: 536.2000122070312, y: 57,
+        width: 30}
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 50, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: 'https://em-content.zobj.net/source/microsoft-teams/337/anatomical-heart_1fac0.png',
+        spacing_below: small, background: '', horizontal_align: center}
+      name: image_2
+      layout_properties: {x: 300.7750244140625, y: -3, width: 55}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Маде ввитх, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
+      name: label_2
+      layout_properties: {x: 175.7750244140625, y: 1, width: 115}

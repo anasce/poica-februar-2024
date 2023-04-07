@@ -318,7 +318,7 @@ color_scheme:
   - {name: Background, color: '#FFFBFE'}
   - {name: Surface, color: '#FFFBFE'}
   - {name: On Background, color: '#1C1B1F'}
-  - {name: On Surface, color: '#1C1B1F'}
+  - {name: On Surface, color: dark red}
   - {name: Surface Variant, color: '#E7E0EC'}
   - {name: On Surface Variant, color: '#49454E'}
   - {name: Outline, color: '#79747E'}

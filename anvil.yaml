@@ -8,9 +8,9 @@ services:
     confirm_email: false}
   server_config: {user_table: users}
 startup: {type: form, module: Homepage}
-package_name: News_App
+package_name: Povi_ica_februar_2023
 allow_embedding: false
-name: News App
+name: Povišica februar 2023
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 startup_form: null

@@ -23,6 +23,13 @@ components:
       background: ''}
     name: articles_panel
     layout_properties: {slot: title, grid_position: 'XRGDXR,JQCHKL'}
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: " App \ud83d\udc69\u200d\ud83d\ude80 com", font_size: null,
+      font: '', spacing_above: large, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_1
+    layout_properties: {grid_position: 'SFQUXZ,SRTXDQ'}
 - type: FlowPanel
   properties: {}
   name: navbar_links

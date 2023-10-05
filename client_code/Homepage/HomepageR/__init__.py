@@ -1,4 +1,4 @@
-from ._anvil_designer import Homepage_copyTemplate
+from ._anvil_designer import HomepageRTemplate
 from anvil import *
 import anvil.users
 import anvil.server
@@ -7,7 +7,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 from ..ArticleEdit import ArticleEdit
 
-class Homepage_copy(Homepage_copyTemplate):
+class HomepageR(HomepageRTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
@@ -32,14 +32,15 @@ class Homepage_copy(Homepage_copyTemplate):
     if save_clicked:
       anvil.server.call('add_article', new_article)
       self.refresh_articles()
-
+    
   def refresh_articles(self):
-    # Load existing articles from the Data Table,
-    # and display them in the RepeatingPanel
-    self.articles_panel.items = anvil.server.call('get_articles')
+     # Load existing articles from the Data Table, 
+     # and display them in the RepeatingPanel
+     self.articles_panel.items = anvil.server.call('get_articles')
 
   def delete_article(self, article, **event_args):
     # Delete the article
     anvil.server.call('delete_article', article)
     # Refresh articles to remove the deleted article from the Homepage
     self.refresh_articles()
+

@@ -23,13 +23,6 @@ components:
       background: ''}
     name: articles_panel
     layout_properties: {slot: title, grid_position: 'XRGDXR,JQCHKL'}
-  - type: TextBox
-    properties: {role: outlined, align: center, hide_text: false, tooltip: '', placeholder: '',
-      border: '', enabled: true, foreground: '', visible: true, text: www  App  com,
-      font_size: null, font: '', spacing_above: small, type: text, spacing_below: small,
-      italic: false, background: '', bold: false, underline: false}
-    name: outlined_1
-    layout_properties: {grid_position: 'SFQUXZ,PCIEZG'}
 - type: FlowPanel
   properties: {}
   name: navbar_links

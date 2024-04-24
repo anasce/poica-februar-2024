@@ -49,12 +49,16 @@ components:
       name: delete_article_button
       layout_properties: {}
       event_bindings: {click: delete_article_button_click}
+  - name: image_2
+    properties: {height: 12, source: _/theme/slbij.png}
+    type: Image
+    layout_properties: {grid_position: 'HJGZPT,YQCVDA UNDSFQ,CGDTCH'}
   - type: Image
-    properties: {role: null, vertical_align: top, height: 50.19999694824219, tooltip: '',
-      border: '', foreground: '', visible: false, display_mode: shrink_to_fit, spacing_above: small,
+    properties: {role: null, vertical_align: top, height: 22, tooltip: '', border: '',
+      foreground: '', visible: false, display_mode: shrink_to_fit, spacing_above: small,
       source: '', spacing_below: small, background: '', horizontal_align: left}
     name: image_1
-    layout_properties: {grid_position: 'HJGZPT,YQCVDA', full_width_row: false}
+    layout_properties: {grid_position: 'HJGZPT,YQCVDA KNNRCC,ISYFNH', full_width_row: false}
     data_bindings:
     - {property: source, code: 'self.item[''image'']'}
   - type: Label

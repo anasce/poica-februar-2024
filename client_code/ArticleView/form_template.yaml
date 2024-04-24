@@ -50,7 +50,7 @@ components:
       layout_properties: {}
       event_bindings: {click: delete_article_button_click}
   - name: image_2
-    properties: {height: 12, source: _/theme/slbij.png}
+    properties: {height: 12, source: _/theme/aaa.png}
     type: Image
     layout_properties: {grid_position: 'HJGZPT,YQCVDA UNDSFQ,CGDTCH'}
   - type: Image

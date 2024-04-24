@@ -10,18 +10,18 @@ unique_ids:
   server_modules:
     ServerModule1: '1669297017291241838743870.52295'
   assets:
-    slike dekoracija/Dreamscape Unleashed.jpg: '1713956189572639797072159.6584'
-    slike dekoracija/.gitkeep: '1713956207874849343623555.7832'
-    slike dekoracija/Advanced Robotic Hand.jpg: '1713956171911600447214834.9806'
     theme.css: AODQ72BOWB6KZMEX2CIJL5C4PBHWZTDN
-    slike dekoracija/Cloud Computing Concept.jpg: '1713956137567697644997832.5403'
-    Smart Farming Technology.jpg: '171395611639126777388382.63055'
-    Isometric Tech Illustration.jpg: '1713956150898389736560171.8683'
+    a/Smart Farming Technology.jpg: '171395611639126777388382.63055'
+    a/Isometric Tech Illustration.jpg: '1713956150898389736560171.8683'
+    a/Smart Home Concept.jpg: '1713956127749851267212788.3445'
     bij.png: '1713954738278288121046428.58325'
+    a/Connectivity Burst.jpg: '1713956203230584815960935.6091'
     standard-page.html: ZJZJ5QIRYGBNKV2UF22CFMCG6IVAXZFB
     SantaClausAndMrsClaus.png: '1713954759514373827862559.482'
-    Smart Home Concept.jpg: '1713956127749851267212788.3445'
-    slike dekoracija/Connectivity Burst.jpg: '1713956203230584815960935.6091'
-    slbij.png: '1713954874459517871310126.9461'
-    Dreamscape Uprising.jpg: '1713956098435315152266678.60815'
+    a/Dreamscape Unleashed.jpg: '1713956189572639797072159.6584'
+    a/Dreamscape Uprising.jpg: '1713956098435315152266678.60815'
+    a/Advanced Robotic Hand.jpg: '1713956171911600447214834.9806'
+    a/.gitkeep: '1713956207874849343623555.7832'
+    a/Cloud Computing Concept.jpg: '1713956137567697644997832.5403'
+    aaa.png: '1713954874459517871310126.9461'
   scripts: {}
